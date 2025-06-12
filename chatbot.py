@@ -5,6 +5,9 @@ from nltk.chat.util import Chat, reflections
 Run the script:
 In terminal or IDE:
 -> python chatbot.py
+
+##dont run above commands in code remove them while running
+
 # Step 2: Define patterns and responses
 pairs = [
     [r"(.*)my name is (.*)", ["Hello %2, How are you today?"]],
