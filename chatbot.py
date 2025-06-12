@@ -1,6 +1,10 @@
 # Step 1: Import required libraries
-from nltk.chat.util import Chat, reflections
-
+from nltk.chat.util import Chat, reflections                                                                  
+######bash//commands run in powershell:
+->pip install nltk
+Run the script:
+In terminal or IDE:
+-> python chatbot.py
 # Step 2: Define patterns and responses
 pairs = [
     [r"(.*)my name is (.*)", ["Hello %2, How are you today?"]],
